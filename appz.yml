@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
+        notify: sumit.bansal@hikeqa.com
 
     build:
         version: 5.7
@@ -11,7 +11,7 @@
         image_template: mysql-5.7
 
     deploy:
-        context: alpha/DEV
+        context: sumithikeqa/DEV
         type: statefulset
         replicas: 1
         port:
@@ -34,4 +34,4 @@
           vault: MYSQL_SPRINGBOOTWEB_PASSWORD
         MYSQL_WORDPRESS_PASSWORD:
           vault: MYSQL_WORDPRESS_PASSWORD
-        revision : 24
+        revision : 26
