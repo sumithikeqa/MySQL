@@ -1,5 +1,5 @@
     app:
-        name: MySQL
+        name: 
         code: mysql
         notify: sumit.bansal@hikeqa.com
 
