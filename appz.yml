@@ -7,8 +7,8 @@
         version: 5.8
         env: DEV
         build_file: none
-        output_files: 
-        image_template: mysql-5.7
+        output_files: output/*.zip
+        image_template: 
 
     deploy:
         context: sumithikeqa/DEV
