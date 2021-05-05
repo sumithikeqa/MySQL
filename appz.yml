@@ -15,7 +15,7 @@
         type: statefulset
         replicas: 2
         port:
-        - 0
+        - 3306
 
     volumes:
       - claim: mysql-data
