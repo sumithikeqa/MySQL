@@ -4,7 +4,7 @@
         notify: sumit.bansal@hikeqa.com
         
     build:
-        version: 
+        version: 5.8
         env: DEV
         build_file: none
         output_files: output/*.zip
