@@ -29,9 +29,9 @@
 
     properties:
         MYSQL_ROOT_PASSWORD:
-          vault: 
+          vault: MYSQL_ROOT_PASSWORD_KEY
         MYSQL_SPRINGBOOTWEB_PASSWORD:
-          vault: MYSQL_SPRINGBOOTWEB_PASSWORD
+          vault: 
         MYSQL_WORDPRESS_PASSWORD:
           vault: MYSQL_WORDPRESS_PASSWORD
         revision : 29
