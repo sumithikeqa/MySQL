@@ -21,7 +21,7 @@
       - claim:  mysql-data
         mount: /var/lib/mysql
         name: data
-        size: 
+        size: 5Gi
       - claim: mysql-backup
         mount: /appz/backup
         name: backup
