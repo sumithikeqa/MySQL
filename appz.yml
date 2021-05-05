@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: 
+        notify: test20@yopmail.com
         
     build:
         version: 5.7
