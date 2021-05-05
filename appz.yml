@@ -13,9 +13,9 @@
     deploy:
         context: sumithikeqa/DEV
         type: statefulset
-        replicas: 
+        replicas: 2
         port:
-        - 3306
+        - 0
 
     volumes:
       - claim: mysql-data
