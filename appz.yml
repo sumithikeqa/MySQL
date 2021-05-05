@@ -23,7 +23,7 @@
         name: data
         size: 5Gi
       - claim: mysql-backup
-        mount: /appz/backup
+        mount: 
         name: backup
         size: 5Gi
 
