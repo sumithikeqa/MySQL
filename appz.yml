@@ -24,7 +24,7 @@
         size: 5Gi
       - claim: mysql-backup
         mount: /appz/backup
-        name: 
+        name: backup
         size: 5Gi
 
     properties:
