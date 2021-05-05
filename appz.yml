@@ -19,7 +19,7 @@
 
     volumes:
       - claim:  mysql-data
-        mount: 
+        mount: /var/lib/mysql
         name: data
         size: 5Gi
       - claim: mysql-backup
