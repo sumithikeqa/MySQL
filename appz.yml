@@ -1,6 +1,6 @@
     app:
         name: MySQL
-        code: mysql
+        code: 
         notify: sumit.bansal@hikeqa.com
 
     build:
