@@ -1,8 +1,8 @@
     app:
         name: MySQL
-        code: test
-        notify: sumit.bansal@hikeqa.com
-
+        code: mysql
+        notify: 
+        
     build:
         version: 5.7
         env: DEV
