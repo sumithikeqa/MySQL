@@ -8,11 +8,11 @@
         env: DEV
         build_file: none
         output_files: output/*.zip
-        image_template: 
+        image_template: mysql-5.7
 
     deploy:
         context: sumithikeqa/DEV
-        type: statefulset
+        type: 
         replicas: 1
         port:
         - 3306
