@@ -5,8 +5,8 @@
         
     build:
         version: 5.8
-        env: 
-        build_file: none
+        env: DEV
+        build_file: 
         output_files: output/*.zip
         image_template: mysql-5.7
 
