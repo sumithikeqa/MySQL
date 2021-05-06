@@ -33,5 +33,5 @@
         MYSQL_SPRINGBOOTWEB_PASSWORD:
           vault: MYSQL_SPRINGBOOTWEB_PASSWORD
         MYSQL_WORDPRESS_PASSWORD:
-          vault: 
+          vault: MYSQL_WORDPRESS_PASSWORD
         revision : 31
