@@ -13,7 +13,7 @@
     deploy:
         context: sumithikeqa/DEV
         type: statefulset
-        replicas: 2
+        replicas: 1
         port:
         - 3306
 
@@ -34,4 +34,4 @@
           vault: MYSQL_SPRINGBOOTWEB_PASSWORD
         MYSQL_WORDPRESS_PASSWORD:
           vault: MYSQL_WORDPRESS_PASSWORD
-        revision : 33
+        revision : 34
