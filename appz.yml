@@ -13,7 +13,7 @@
     deploy:
         context: sumithikeqa/DEV
         type: statefulset
-        replicas: 1
+        replicas: 3
         port:
         - 3306
 
