@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
+        notify: sumit.bansal@hikeqa.com
         
     build:
         version: 5.8
